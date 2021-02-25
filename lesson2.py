@@ -141,3 +141,35 @@
 #
 #
 # print(hello)
+
+
+# Practice
+# прога, що виводить кількість кожного символа з введеної строки,
+# наприклад:
+# st = 'as 23 fdfdg544'
+#
+# for i in st:
+#     count = st.count(i)
+#     if count:
+#         print(f"'{i}'-> {count}")
+#         st = st.replace(i, '')
+# list comprehension
+#
+# 1)  есть лист:
+# создать новый лист и записать в него 'GT' если элемент в numbers больше 4 и 'LT' если элемент меньше или равен 4
+# пример:
+# ['LT', 'LT', 'LT', 'LT', 'GT', 'GT', 'GT', 'GT']
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+# result = ['GT' if i > 4 else 'LT' for i in numbers]
+#
+# print(result)
+# 2) есть два листа:
+#
+# записать в лист тюплы (x,y) если x+y == 0
+# пример:
+# [(1, -1), (2, -2), (5, -5)]
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [-1, 7, 10, -5, -2]
+# result = [(x, y) for x in list1 for y in list2 if not x + y]
+# print(result)
